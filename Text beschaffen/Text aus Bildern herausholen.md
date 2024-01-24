@@ -18,8 +18,8 @@ Die txt.-Files pro Foto habe ich dann, gruppiert nach Daten, in Python zu einem 
 import os
 from pathlib import Path
 
-input_directory = "/Users/j/Desktop/Stadtratsprotokolle_1999-2003_text"
-output_directory = "/Users/j/Desktop/monatliche_protokolle_99-03"
+input_directory = "/Users/j/Desktop/Stadtratsprotokolle_1999-2001_text"
+output_directory = "/Users/j/Desktop/monatliche_protokolle_99-01"
 
 txt_files = sorted(Path(input_directory).glob('*-*.txt'))
 
