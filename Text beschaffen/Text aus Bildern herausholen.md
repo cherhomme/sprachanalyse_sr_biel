@@ -1,4 +1,4 @@
-###Text-aus-Bild-Extraktion
+### Text-aus-Bild-Extraktion
 
 Weil die Stadtratsprotokolle für y<2002 nicht digital vorliegen, habe ich für drei Jahre alle Protokolle abfotografiert.
 
