@@ -1,4 +1,4 @@
-### Audio in Text umwandeln
+### Audio in Text umwandeln (Erklärteil)
 
 Für einen Grossteil der Sitzungen im Jahr 2022 und 2023 waren die Protokolle noch nicht vertextet, sondern pro Intervention während einer Sitzung ein Audiofile abgespeichert.
 
