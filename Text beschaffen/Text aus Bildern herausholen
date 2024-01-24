@@ -6,6 +6,6 @@ Dafür habe ich den OCR-Engine libtesseract verwendet [link a](https://github.co
 
 Für die rund 5250 Fotos habe ich folgenden Befehl in der Command Line ausgeführt:
 
-```~ % for x in ~/Desktop/downloads/*.png; do
+`~ % for x in ~/Desktop/downloads/*.png; do
 	tesseract ${x} ${x}
-done```
+done`
