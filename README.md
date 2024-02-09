@@ -7,7 +7,7 @@
 ### Daten beschaffen
 Da die neuesten Protokolle nur als Audio-Aufnahmen verfügbar sind, die Protokolle vor 2002 nur in Papierform, wurde die Beschaffung der Daten in drei Schritte aufgeteilt:
 
-* Die Protokolle von 2002-2021 sind alle als PDFs verfügbar. Die Stadtkanzlei hat sie mir per Mail / Webtransfer übermittelt. Danach habe ich mit der fitz-Python-Library Text aus den PDFs extrahiert.
+* Die Protokolle von 2002-2021 sind alle als PDFs verfügbar. Die Stadtkanzlei hat sie mir per Mail / Webtransfer übermittelt. Danach habe ich mit der fitz-Python-Library mit folgendem [Code](url) Text aus den PDFs extrahiert.
 * Die Protokolle von 1999-2001 sind ausschliesslich auf Papier verfügbar. Ich habe sie im Stadtarchiv abfotografiert und mit tesseract den Text aus den Fotos extrahiert.
 * Ein Teil der Protokolle von 2022 und 2023 ist erst in Form von Audiofiles verfügbar. Ich habe die Audiofiles über die API von Whisper vertextet.
 
