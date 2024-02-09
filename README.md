@@ -9,6 +9,8 @@
 * Die Protokolle von 1999-2001 sind ausschliesslich auf Papier verfügbar. Ich habe sie im Stadtarchiv abfotografiert und mit tesseract den Text aus den Fotos extrahiert.
 * Ein Teil der Protokolle von 2022 und 2023 ist erst in Form von Audiofiles verfügbar. Ich habe die Audiofiles über die API von Whisper vertextet.
 
-#### Codes
+#### Datenanalyse: Gescheiterte und geglückte Analysemethoden
+
+
 
 **Text aus PDFs**
