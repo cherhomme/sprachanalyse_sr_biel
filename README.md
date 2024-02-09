@@ -13,22 +13,23 @@ Da die neuesten Protokolle nur als Audio-Aufnahmen verfügbar sind, die Protokol
 
 ### Datenanalyse: Gescheiterte und geglückte Analysemethoden
 
-Ursprünglicher Plan: Mit nltk die Textstrings tokenisieren, dann mit spacy und den vortrainierten deutschen und französischen Modellen die Token stemmen und dann die Substantive herausfischen, nach höchsten counts sortieren und manuell nachselektieren, um ihre Verwendungszahl 1999-2023 zu zeigen.
-
-*Allerdings gab es Probleme, weshalb auf Plan C ausgewichen werden musste*
+Ursprünglicher Plan: Mit nltk die Textstrings tokenisieren, dann mit spacy und den vortrainierten deutschen und französischen Modellen die Token stemmen und dann die Substantive herausfischen, nach höchsten counts sortieren und manuell nachselektieren, um ihre Verwendungszahl 1999-2023 zu zeigen. *Allerdings gab es Probleme, weshalb auf Plan C ausgewichen werden musste.*
 
 #### Plan A: Die Probleme mit Spacy
-* die vortrainierten Modelle de und fr können nicht mit lokalen Spezifizitäten wie 'Westast', 'Expo', 'Agglolac', 'CTS' u. ä. umgehend; diese sind für die Bieler Politik aber gerade wichtig.
-* bei den anderen Wörtern, die Spacy zwar stemmen konnte, kamen viel zu tiefe Zahlen heraus, als mit einer kurzen Volltextsuche in code clinic aufgefunden wurden.
-* Der Bias war auch nicht für alle Wörter gleich, sodass wenigstens die relativen Frequenzveränderungen brauchbar gewesen wären
+* die vortrainierten Modelle de und fr können nicht mit lokalen Spezifizitäten wie 'Westast', 'Expo', 'Agglolac', 'CTS' u. ä. umgehend; sprich: sie erkennen sie nicht als Substantiva oder noch feinerkörnige Entitäten. Diese Wörter sind für die Bieler Politik aber gerade wichtig.
+* bei den anderen Wörtern, die Spacy zwar stemmen konnte, kamen dann aber viel zu tiefe Zahlen heraus, als mit einer kurzen Volltextsuche in den entsprechenden Protokollen aufgefunden wurden.
+* Der Bias war auch nicht für alle Wörter gleich, sodass auch nicht die relativen Frequenzveränderungen untereinander brauchbar gewesen wären.
 
 Hier [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/null_Urspruengliche_idee_mit_nltk_und_spacy.ipynb] ist die Skizze des Vorgehens auf einem Jupyter Notebook mit der ursprünglichen Idee.
 
 Zwei Auswege:
-* Plan B: Selbst ein llm auf lokale Spezifizitäten trainieren. Die Zeit dafür reichte allerdings nicht; ich versuche das in den nächsten Wochen/Monaten aber mit der fastai-Library und einem zugemieteten Server mit entsprechender GPU-Ausstattung und vorinstallierten packages
+* Plan B: Selbst ein llm auf lokale Spezifizitäten trainieren. Die Zeit dafür reichte allerdings nicht; ich versuche das in den nächsten Wochen/Monaten mit der fastai-Library und einem zugemieteten Server mit entsprechender GPU-Ausstattung und vorinstallierten packages
 * Plan C: Manuell arbeiten
 
 #### Plan C: Manuelles Vorgehen:
+
+*Zusammenfassung vorgehen: Tokenisieren, die Tokens nach Häufigkeit auflisten, manuell die interessanten Token selektieren, diese dann je Stadtratssitzung zählen. Meist schlicht als String-Suche, einmal aber auch mit einer Regex, weil sonst ungewünschte Strings mitgezählt worden wären.*
+
 1. Die Strings nach Sprachen aufspalten und monatsweise als Textfiles abspeichern: [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/1_Sprachfilter.ipynb]
 
 2. Die Strings mit nltk tokenisieren: 
