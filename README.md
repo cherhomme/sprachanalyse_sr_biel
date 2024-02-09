@@ -11,6 +11,8 @@ Da die neuesten Protokolle nur als Audio-Aufnahmen verfügbar sind, die Protokol
 * Die Protokolle von 1999-2001 sind ausschliesslich auf Papier verfügbar. Ich habe sie im Stadtarchiv abfotografiert und mit tesseract den Text aus den Fotos extrahiert.
 * Ein Teil der Protokolle von 2022 und 2023 ist erst in Form von Audiofiles verfügbar. Ich habe die Audiofiles über die API von Whisper vertextet.
 
+Die Codes zur Datenbeschaffung sind [hier](Text beschaffen).
+
 #### Datenanalyse: Gescheiterte und geglückte Analysemethoden
 
 
