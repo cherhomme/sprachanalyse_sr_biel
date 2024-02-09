@@ -7,6 +7,8 @@ Die Probleme mit Spacy
 * bei den anderen Wörtern, die Spacy zwar stemmen konnte, kamen viel zu tiefe Zahlen heraus, als mit einer kurzen Volltextsuche in code clinic aufgefunden wurden.
 * Der Bias war auch nicht für alle Wörter gleich, sodass wenigstens die relativen Frequenzveränderungen brauchbar gewesen wären
 
+Hier ist der [Link](sprachanalyse_sr_biel/Textanalyse und Grafiken/Textanalyse und Grafiken/Urspruengliche_idee_mit_nltk_und_spacy.ipynb) auf ein Jupyter Notebook mit der ursprünglichen Idee.
+
 Zwei Lösungen:
 * Selbst ein llm auf lokale Spezifizitäten trainieren. Die Zeit dafür reichte allerdings nicht; ich versuche das in den nächsten Wochen/Monaten aber mit der fastai-Library und einem zugemieteten Server mit entsprechender GPU-Ausstattung
 * Manuell arbeiten
