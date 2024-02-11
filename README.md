@@ -46,7 +46,7 @@ Zwei Auswege:
 4. Die Liste von de nach fr übersetzen und allfällige Synonyme in der anderen Sprache berücksichtigen ('Verkehr' -> 'circulation', 'traffic')
 5. Nach Wörtern und Komposita fischen: Beispiel: Nach 'budget' statt nach ' budget' suchen (weil sonst z. B. 'Budgetverhandlung' und 'négociation de budget' auf DE wie FRZ nicht gleich gezählt werden)
 
-Code für Schritt 2, 3, 4, 5: [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/1_Sprachfilter.ipynb]
+Code für Schritt 2, 3, 4, 5: [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/2_Filter_mit_token_de_fr.ipynb]
 
 6. df erstellen mit Wort-/Kompositanennungen pro Monat und Plots erstellen: [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/3_plots_aus_frequenz.ipynb]
 
