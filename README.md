@@ -7,7 +7,7 @@
 
 **Knackpunkt vor Beginn des Projekts**: Wie weit werde ich in die Vergangenheit zurückgehen können? Ab 2001 sind die Protokolle nicht mehr digital verfügbar.
 
-**Ertrag vs Aufwand**: Die Beschaffung der Daten dürfte aufwendig sein. Unbekannt: Wie aufwendig wird die Sprachanalyse (in zwei Sprachen)?
+**Ertrag vs Aufwand**: Die Beschaffung der Daten dürfte aufwendig sein. Unbekannt: Wie aufwendig wird die Sprachanalyse (in zwei Sprachen)? Resultat: Die Analyse war ziemlich aufwendig. Aber der Datensatz lässt sich künftig noch für weitere Themen nutzen, auch mit Blick auf die städtischen Wahlen im Herbst.
 
 **Knackpunkt**: Finde ich in den Daten auch interessante Trends? Das weiss ich erst, wenn ich den ganzen Aufwand der Datenbeschaffung und Analyse betrieben habe.
 
