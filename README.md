@@ -51,7 +51,7 @@ Code für Schritt 2, 3, 4, 5: [https://github.com/cherhomme/sprachanalyse_sr_bie
 
 7. Fürs storytelling: suche der spannenden Begriffe in den jeweils spannenden Stadtratsprotokollen mit visual studio code
 
-8. Gespräch mit Briefing-Person hier.
+8. Gespräch mit Briefing-Person [hier]([url](https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/Briefing.md)).
 
 ### Weiteres
 
