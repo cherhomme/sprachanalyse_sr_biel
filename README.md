@@ -32,7 +32,7 @@ Ursprünglicher Plan: Mit nltk die Textstrings tokenisieren, dann mit spacy und 
 Hier [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/null_Urspruengliche_idee_mit_nltk_und_spacy.ipynb] ist die Skizze des Vorgehens auf einem Jupyter Notebook mit der ursprünglichen Idee.
 
 Zwei Auswege:
-* Plan B: Selbst ein llm auf lokale Spezifizitäten trainieren. Die Zeit dafür reichte allerdings nicht; ich versuche das in den nächsten Wochen/Monaten mit der fastai-Library und einem zugemieteten Server mit entsprechender GPU-Ausstattung und vorinstallierten packages
+* Plan B: Selbst ein llm auf lokale Spezifizitäten trainieren. Die Zeit dafür reichte allerdings nicht; ich versuche das in den nächsten Wochen/Monaten für künftige Analysen nachzuholen
 * Plan C: Manuell arbeiten
 
 #### Plan C: Manuelles Vorgehen:
