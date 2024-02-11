@@ -2,6 +2,7 @@
 
 ## Ausgangslage
 **Ausgangsfrage** : *Welche Themen haben in den letzten 25 Jahren im Bieler Stadtrat viel zu reden gegeben? Wann hatten sie Konjunktur, wann sind sie wieder verschwunden?* 
+
 **Methode ihrer Beantwortung**: *Quantitative Analyse möglichst vieler Stadtratprotokolle*
 
 **Knackpunkt vor Beginn des Projekts**: Wie weit werde ich in die Vergangenheit zurückgehen können? Ab 2001 sind die Protokolle nicht mehr digital verfügbar.
