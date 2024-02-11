@@ -10,7 +10,7 @@ Die Probleme mit Spacy
 Hier ist der [Link](sprachanalyse_sr_biel/Textanalyse und Grafiken/Urspruengliche_idee_mit_nltk_und_spacy.ipynb) auf ein Jupyter Notebook mit der ursprünglichen Idee.
 
 Zwei Lösungen:
-* Selbst ein llm auf lokale Spezifizitäten trainieren. Die Zeit dafür reichte allerdings nicht; ich versuche das in den nächsten Wochen/Monaten aber mit der fastai-Library und einem zugemieteten Server mit entsprechender GPU-Ausstattung
+* Selbst ein llm auf lokale Spezifizitäten trainieren. Die Zeit dafür reichte allerdings nicht; ich versuche das in den nächsten Wochen/Monaten aber mit der fastai-Library und einem zugemieteten Server mit entsprechender GPU-Ausstattung. Hier wird helfen, dass ich bereits einen Korpus von 6,7 Millionen Wörtern habe.
 * Manuell arbeiten
 
 Das manuelle Vorgehen:
