@@ -56,7 +56,8 @@ Code für Schritt 2, 3, 4, 5: [https://github.com/cherhomme/sprachanalyse_sr_bie
 ### Weiteres
 
 Hier ist der Datensatz [https://github.com/cherhomme/sprachanalyse_sr_biel/tree/main/Daten]. 
-Hier ist das Arbeitsprotokoll.
+Hier ist das Arbeitsprotokoll [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Arbeitsprotokoll.md].
+Hier ist die publizierte Arbeit [LINK].
 
 ### Deklaration Mithilfe
-Fürs Coden wurde immer wieder ChatGPT 3.5 konsultiert. Und der BT-Grafiker Michael Lüdi hat die Beschriftung der Grafiken (Namen Achsen, Legenden) Print-Vorlagenkonform gemacht.
+Fürs Coden wurde immer wieder ChatGPT 3.5 konsultiert. BT-Grafiker Michael Lüdi hat die Beschriftung der Grafiken (Namen Achsen, Legenden) Vorlagenkonform gemacht. Und BT-Redaktor Matthias Gräub hat den Text dankenswerterweise zwei Mal gegengelesen und wertvolle Verbesserungsvorschläge gemacht.
