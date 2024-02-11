@@ -1,0 +1,1 @@
+Daten auf DE und FR aller Protokolle 1999-2023 mit Ausnahme Dezember 2023 (wurde nicht rechtzeitig zur Verfügung gestellt durch Ratssekretariat aufgrund eines technischen Problems mit den Audioaufnahmen.)
