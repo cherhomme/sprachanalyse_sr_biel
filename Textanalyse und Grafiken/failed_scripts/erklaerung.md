@@ -1,1 +1,1 @@
-Hier sind die Skripts des ursprünglichen, aufgegebenen Vorgehens mit Spacy
+Hier sind die Skripts des ursprünglichen, aufgegebenen Vorgehens mit Spacy, weil Spacy nicht alle Wörter richtig stemmte und als nomen identifizierte, zudem nicht so angepasst werden konnte, dass Biel-spezifische Spezialitäten wie 'westast', 'expo' mitkommen.
