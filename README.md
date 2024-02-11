@@ -25,7 +25,7 @@ Da die neuesten Protokolle nur als Audio-Aufnahmen verfügbar sind, die Protokol
 Ursprünglicher Plan: Mit nltk die Textstrings tokenisieren, dann mit spacy und den vortrainierten deutschen und französischen Modellen die Token stemmen und dann die Substantive herausfischen, nach höchsten counts sortieren und manuell nachselektieren, um ihre Verwendungszahl 1999-2023 zu zeigen. *Allerdings gab es Probleme, weshalb auf Plan C ausgewichen werden musste.*
 
 #### Plan A: Die Probleme mit Spacy
-* die vortrainierten Modelle de und fr können nicht mit lokalen Spezifizitäten wie 'Westast', 'Expo', 'Agglolac', 'CTS' u. ä. umgehend; sprich: sie erkennen sie nicht als Substantiva oder noch feinerkörnige Entitäten. Diese Wörter sind für die Bieler Politik aber gerade wichtig.
+* die vortrainierten Modelle de und fr können nicht mit lokalen Spezifizitäten wie 'Westast', 'Expo', 'Agglolac', 'CTS' u. ä. umgehen; sprich: sie erkennen sie nicht als Substantiva oder noch feinerkörnige Entitäten. Diese Wörter sind für die Bieler Politik aber gerade wichtig.
 * bei den anderen Wörtern, die Spacy zwar stemmen konnte, kamen dann aber viel zu tiefe Zahlen heraus, als mit einer kurzen Volltextsuche in den entsprechenden Protokollen aufgefunden wurden.
 * Der Bias war auch nicht für alle Wörter gleich, sodass auch nicht die relativen Frequenzveränderungen untereinander brauchbar gewesen wären.
 
