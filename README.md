@@ -10,8 +10,6 @@
 
 **Knackpunkt**: Finde ich in den Daten auch interessante Trends? Das weiss ich erst, wenn ich den ganzen Aufwand der Datenbeschaffung und Analyse betrieben habe.
 
-*Welche Themen haben in den letzten 25 Jahren im Bieler Stadtrat viel zu reden gegeben? Wann hatten sie Konjunktur, wann sind sie wieder verschwunden? Um diese Frage zu beantworten, habe ich die Stadtratprotokolle 1999-2023 analysiert.*
-
 ## Vorgehen
 
 ### Daten beschaffen
@@ -52,6 +50,13 @@ Code für Schritt 2, 3, 4, 5: [https://github.com/cherhomme/sprachanalyse_sr_bie
 6. df erstellen mit Wort-/Kompositanennungen pro Monat und Plots erstellen: [https://github.com/cherhomme/sprachanalyse_sr_biel/blob/main/Textanalyse%20und%20Grafiken/3_plots_aus_frequenz.ipynb]
 
 7. Fürs storytelling: suche der spannenden Begriffe in den jeweils spannenden Stadtratsprotokollen mit visual studio code
+
+8. Gespräch mit Briefing-Person hier.
+
+### Weiteres
+
+Hier ist der Datensatz LINK. 
+Hier ist das Arbeitsprotokoll.
 
 ### Deklaration Mithilfe
 Fürs Coden wurde immer wieder ChatGPT 3.5 konsultiert. Und der BT-Grafiker Michael Lüdi hat die Beschriftung der Grafiken (Namen Achsen, Legenden) Print-Vorlagenkonform gemacht.
