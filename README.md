@@ -55,7 +55,7 @@ Code für Schritt 2, 3, 4, 5: [https://github.com/cherhomme/sprachanalyse_sr_bie
 
 ### Weiteres
 
-Hier ist der Datensatz LINK. 
+Hier ist der Datensatz [https://github.com/cherhomme/sprachanalyse_sr_biel/tree/main/Daten]. 
 Hier ist das Arbeitsprotokoll.
 
 ### Deklaration Mithilfe
