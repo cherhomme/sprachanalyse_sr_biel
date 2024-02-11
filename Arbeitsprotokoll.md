@@ -37,5 +37,5 @@ Erst enthusiastisches Vorgehen mit nltk, spacy um die ganzen Textfiles zu stemme
 
 Daher Aufgabe dieses Plans und zurück zu manuellem String-Fischen / Fischen mit Regex, manuelles erstellen von Filtern mit spannenden Wörtern in beiden Sprachen, erstellen von Plots mit gleitendem Mittel.
 
-### 6. - 7. Februar 2024
+### 6. Februar 2024
 Schreiben des Artikels (Tel. mit Grünen-Präsident, Volltextsuche in Stadtratsprotokollen), letzte Anpassungen bei den Plots, Seitenplanung mit Grafiker, Gegenlesen durch Redaktions-Kollege.
